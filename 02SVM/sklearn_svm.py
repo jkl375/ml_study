@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # 导入鸢尾花数据
 iris = datasets.load_iris()
-X = iris.data[:, :2] # 取前两行
+X = iris.data[:, :3] # 取前3行
 y = iris.target # 分类值
 
 # 划分训练测试集
